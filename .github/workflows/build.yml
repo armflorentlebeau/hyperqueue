@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - aarch64_whl
   pull_request:
   workflow_call:
     inputs:
