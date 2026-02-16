@@ -128,7 +128,7 @@ jobs:
   build-python-binding:
     needs: [ set-env ]
     runs-on: ubuntu-latest
-    container: quay.io/pypa/manylinux_2_28_x86_64
+    container: quay.io/pypa/manylinux_2_28_aarch64
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
