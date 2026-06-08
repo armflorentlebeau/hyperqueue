@@ -2,8 +2,7 @@ name: Create nightly build release
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 23 * * *"
+
 jobs:
   set-env:
     runs-on: ubuntu-latest
